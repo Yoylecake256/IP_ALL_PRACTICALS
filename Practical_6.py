@@ -171,7 +171,35 @@ print(new_arr)
 print("Reshaped again: ")
 print(arr.reshape(3, 2))
 
-#Question 12
+#Question_11
+import numpy as np
+
+# Define two 3x3 matrices
+m1 = np.array([,
+ ,
+    [7, 8, 9]
+])
+
+m2 = np.array([,
+ ,
+    [3, 2, 1]
+])
+
+# 1. Matrix Multiplication (Dot Product)
+# Use the '@' operator for true matrix multiplication
+multiplication_result = m1 @ m2
+
+print("--- Matrix Multiplication Result ---")
+print(multiplication_result)
+
+# 2. Finding the Transpose
+# Use '.T' to instantly flip rows and columns
+transposed_result = multiplication_result.T
+
+print("\n--- Transposed Result ---")
+print(transposed_result)
+
+#Question_12
 import numpy as np
 #Student marks
 marks = np.array([[85,90, 78, 88], [70, 75, 80, 85], [95, 95, 85, 91]])
