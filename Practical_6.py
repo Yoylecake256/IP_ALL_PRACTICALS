@@ -1,3 +1,37 @@
+#Question_1
+
+matrix = [["a", "b", 1], 
+          ["c", "d", 2], 
+          ["e", "f", 3]]
+print("\nEntire matrix:")
+print(matrix)
+print("\nFirst Row:")
+print(matrix[0])
+print("\nFor element at (2, 3)")
+print(matrix[1][2])
+
+#Question_2
+matrix = [
+    ["a", "b"], 
+    ["c", "d"], 
+    ["e", "f"]
+]
+
+print("Row-wise traversal:")
+for r in range(len(matrix)):
+    for c in range(len(matrix[r])):
+        print(f"Element at ({r}, {c}): {matrix[r][c]}")
+
+matrix = [["a", "b"], 
+          ["c", "d"], 
+          ["e", "f"]]
+
+print("\nColumn-wise traversal")
+for i in range(len(matrix[0])): 
+    for j in range(len(matrix)): 
+        print(f"Element at ({j}, {i}) is: {matrix[j][i]}")
+
+
 #Question 9
 
 import numpy as np
